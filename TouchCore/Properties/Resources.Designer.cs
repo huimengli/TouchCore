@@ -73,6 +73,16 @@ namespace TouchCore.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap button {
+            get {
+                object obj = ResourceManager.GetObject("button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Close {
             get {
                 object obj = ResourceManager.GetObject("Close", resourceCulture);
@@ -96,6 +106,36 @@ namespace TouchCore.Properties {
         internal static System.Drawing.Bitmap Move {
             get {
                 object obj = ResourceManager.GetObject("Move", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap New {
+            get {
+                object obj = ResourceManager.GetObject("New", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap rocker {
+            get {
+                object obj = ResourceManager.GetObject("rocker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap RockerButton {
+            get {
+                object obj = ResourceManager.GetObject("RockerButton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
