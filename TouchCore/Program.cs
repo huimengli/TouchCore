@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TouchCore.Project;
 
 namespace TouchCore
 {
@@ -14,12 +15,13 @@ namespace TouchCore
         [STAThread]
         static void Main()
         {
+            RepeatingTasks.ClockThreadInit();   //启动重复任务线程
 #if DEBUG
             //MessageBox.Show("DEBUG");
             //程序启动
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new TouchpadForm());
 #else
             //MessageBox.Show("else");
             //捕获全局异常
